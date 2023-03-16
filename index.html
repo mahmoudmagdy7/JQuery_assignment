@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Egyption Party</title>
+  <!-- styles  -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <nav class="flex-column gap-5 position-fixed">
+    <i class="fs-slolid fa-x ms-auto me-4 mt-3 close-nav"></i>
+    <a href="#" class="text-decoration-none">Home</a>
+    <a href="#" class="text-decoration-none">Details</a>
+    <a href="#" class="text-decoration-none">Duration</a>
+    <a href="#" class="text-decoration-none">Contact</a>
+  </nav>
+  <!---------------- header ------------------>
+  <header class="d-flex justify-content-center align-items-center">
+    <div class="text-center">
+      <h1 class="display-1 fw-normal">Egyption Party</h1>
+      <p class="fs-3">Let's have fun</p>
+    </div>
+    <div class="toggler position-absolute"><i class="fa-solid fa-bars me-2"></i>Open</div>
+  </header>
+  <!---------------- details ------------------>
+  <section class="container details">
+    <div class="row py-5">
+      <div class="section  text-center col-9 m-auto">
+        <div data-target='one' class="title-section text-white">Singer one</div>
+        <p class="target mb-0 " id="one">Lorem ipsum dolor sit amet consectetur adipisicing
+          elit.
+          Quis ad inventore
+          exercitationem sint
+          veritatis
+          perferendis qui alias iure, voluptatem pariatur, nostrum ut at quasi? Omnis quaerat et rem explicabo officiis!
+        </p>
+        <div data-target='two' class="title-section text-white">Singer two</div>
+        <p class="target mb-0 " id="two">Lorem ipsum dolor sit amet consectetur adipisicing
+          elit.
+          Quis ad inventore
+          exercitationem sint
+          veritatis
+          perferendis qui alias iure, voluptatem pariatur, nostrum ut at quasi? Omnis quaerat et rem explicabo officiis!
+        </p>
+        <div data-target='three' class="title-section text-white">Singer three</div>
+        <p class="target mb-0 " id="three">Lorem ipsum dolor sit amet consectetur adipisicing
+          elit.
+          Quis ad inventore
+          exercitationem sint
+          veritatis
+          perferendis qui alias iure, voluptatem pariatur, nostrum ut at quasi? Omnis quaerat et rem explicabo officiis!
+        </p>
+        <div data-target='four' class="title-section text-white">Singer four</div>
+        <p class="target mb-0 " id="four">Lorem ipsum dolor sit amet consectetur adipisicing
+          elit.
+          Quis ad inventore
+          exercitationem sint
+          veritatis
+          perferendis qui alias iure, voluptatem pariatur, nostrum ut at quasi? Omnis quaerat et rem explicabo officiis!
+        </p>
+      </div>
+    </div>
+  </section>
+  <!---------------- countdown ------------------>
+  <section class="countdown">
+    <div class=" row container h-100 m-auto text-center align-items-center fs-3">
+      <div class="col-md-3"> <span class="days me-1 text-warning"></span> day</div>
+      <div class=" col-md-3"> <span class="hours me-1 text-warning"></span> hour</div>
+      <div class=" col-md-3"> <span class="minutes me-1 text-warning"></span> minute</div>
+      <div class=" col-md-3"> <span class="seconds me-1 text-warning"></span> second</div>
+    </div>
+  </section>
+  <!---------------- contact ------------------>
+  <section class="container vh-100">
+    <div class="row py-5">
+      <!-- left section  -->
+      <div class="col-lg-6 content-section text-dark text-opacity-75">
+        <h2 class="fw-bold">JOIN US</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, in.</p>
+        <h4 class="fw-bold mt-4">CONTACT INFO</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolores repellendus facere voluptas
+          quibusdam
+          maiores explicabo optio laudantium vero provident.</p>
+        <!-- contact information list  -->
+        <ul class="list-unstyled text-decoration-none my-5">
+          <li class="d-flex align-items-center my-4"><i class="fa-solid fa-location-pin fa-fw"></i>
+            <p class="mb-0 ms-4">New Street 22545, Nexa Road, New York City, USA</p>
+          </li>
+          <li class="d-flex align-items-center my-4 "><i class="fa-solid fa-envelope fa-fw"></i>
+            <p class="text-danger mb-0 ms-4">hello@uigrid.com</p>
+          </li>
+          <li class="d-flex align-items-center my-4"><i class="fa-solid fa-phone fa-fw"></i>
+            <p class="mb-0 ms-4">001-000-000-000</p>
+          </li>
+        </ul>
+        <!-- social icons  -->
+        <ul class="list-unstyled d-flex gap-3 mb-4">
+          <li class="border-2 border social-icon"> <i class=" fa-brands fa-facebook-f"></i></li>
+          <li class="border-2 border social-icon"> <i class=" fa-brands fa-twitter"></i></li>
+          <li class="border-2 border social-icon"> <i class=" fa-brands fa-google-plus-g"></i></li>
+          <li class="border-2 border social-icon"><i class=" fa-brands fa-github"></i></li>
+          <li class="border-2 border social-icon"> <i class=" fa-brands fa-behance"></i></li>
+          <li class="border-2 border social-icon"> <i class=" fa-brands fa-dribbble"></i>
+          </li>
+        </ul>
+      </div>
+
+      <!-- right section  -->
+      <div class="col-lg-6 text-dark text-opacity-75">
+        <form>
+          <input type="text" class="form-control mb-3" placeholder="ENter Name">
+          <input type="email" class="form-control mb-3" placeholder="Enter Email">
+          <textarea cols="30" rows="5" class="form-control mb-3" placeholder="Enter Your Message"></textarea>
+          <p><span class="characters-number fw-bold text-success d-inline-block pe-2">100</span><span
+              class="remaining">Character Remaining</span></p>
+          <button class="submit btn btn-warning rounded-0">SEND MESSAGE</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- javascript  -->
+  <script src="JS/JQuery.js"></script>
+  <script src="JS/all.min.js"></script>
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/main.js"></script>
+</body>
+
+</html>

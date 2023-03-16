@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+:root {
+  --main-color: #081827b8;
+  --dark-color: #1b1b1b;
+  --yellow-color: #f7c04a;
+}
+body {
+  font-family: Montserrat, sans-serif;
+  color: #dedede;
+}
+nav {
+  width: 0;
+  overflow: hidden;
+  height: 100vh;
+  font-size: 24px;
+  z-index: 555;
+  background-color: var(--yellow-color);
+  box-shadow: 10px 1px 100px 0px #000000a8;
+  display: flex;
+  transition: all 1s;
+}
+nav a:first-child {
+  margin-top: 9rem;
+}
+nav a,
+nav i {
+  color: #00425a !important;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+nav a:hover,
+nav i:hover {
+  color: #3c768b !important;
+}
+
+/* heading  */
+header {
+  background-image: linear-gradient(var(--main-color), #00000034),
+    url(../images/hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+.toggler {
+  left: 20px;
+  font-size: 26px;
+  cursor: pointer;
+  top: 100px;
+}
+
+.target {
+  display: none;
+  background-color: #f8f5e4;
+  font-size: 16px;
+  padding: 10px;
+  color: #1b1b1b !important;
+}
+.title-section {
+  background-color: var(--yellow-color);
+  padding: 6px;
+  cursor: pointer;
+  font-size: 22px;
+  color: #1b1b1b !important;
+  border-bottom: solid #f8f5e4 2px;
+}
+
+[data-target="four"] {
+  border-bottom: 0;
+}
+/* countdown */
+
+.countdown {
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(#3e2100b3, #3e2100b3),
+    url(../images/join-us.jpg);
+}
+.nav {
+  height: 50vh;
+  width: 0;
+  position: absolute;
+}
+.social-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transition: background-color 0.3s, border-color 0.3s;
+  cursor: pointer;
+}
+.social-icon:hover {
+  color: #fff;
+  background-color: var(--yellow-color) !important;
+  border-color: var(--yellow-color) !important;
+}
